@@ -1,3 +1,25 @@
 body {
   font-family: 'Proxima Nova', sans-serif;
 }
+
+.container {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 160px;
+  height: 40px;
+  padding: 10px 6px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
+  margin: 20px;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+}

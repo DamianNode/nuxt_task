@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <p>Hello {{ name }}!</p>
-    <NuxtLink to="/about">
+    <NuxtLink class="btn btn-primary" to="/about">
       Go to /about
     </NuxtLink>
-    <NuxtLink to="/contact">
+    <NuxtLink class="btn btn-primary" to="/contact">
       Go to /contact
     </NuxtLink>
   </div>
