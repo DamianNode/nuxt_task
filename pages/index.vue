@@ -1,25 +1,27 @@
 <template>
-  <div class="container">
-    <p>Hello {{ name }}!</p>
-    <NuxtLink class="btn btn-primary" to="/about">
-      Go to /about
-    </NuxtLink>
-    <NuxtLink class="btn btn-primary" to="/contact">
-      Go to /contact
-    </NuxtLink>
-  </div>
+  <links>
+    <div class="container">
+      <p>Hello {{ name }}!</p>
+      <NuxtLink class="btn btn-primary" to="/about">
+        Go to /about
+      </NuxtLink>
+      <NuxtLink class="btn btn-primary" to="/contact">
+        Go to /contact
+      </NuxtLink>
+    </div>
+  </links>
 </template>
 
 <script>
-export default {
-  asyncData () {
-    return new Promise((resolve) => {
-      setTimeout(function () {
-        resolve({ name: 'world' })
-      }, 1000)
-    })
+  export default {
+    asyncData () {
+      return new Promise((resolve) => {
+        setTimeout(function () {
+          resolve({ name: 'world' })
+        }, 1000)
+      })
+    }
   }
-}
 </script>
 
 <style scoped>

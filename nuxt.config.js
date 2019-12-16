@@ -9,6 +9,9 @@ export default {
       { rel: 'stylesheet', type: 'text/css', href: '/ProximaNova-Regular.otf' }
     ]
   },
+  plugins: [
+    { src: "~/plugins/global.js" }
+  ],
   loading: '~/components/loading.vue',
   css: [
     '~/assets/style.css'
