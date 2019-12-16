@@ -4,6 +4,9 @@
     <NuxtLink to="/about">
       Go to /about
     </NuxtLink>
+    <NuxtLink to="/contact">
+      Go to /contact
+    </NuxtLink>
   </div>
 </template>
 
